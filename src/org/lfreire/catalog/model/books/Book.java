@@ -4,7 +4,7 @@ import org.lfreire.catalog.model.Product;
 
 import java.util.Date;
 
-abstract public class Book extends Product implements IBook {
+public class Book extends Product implements IBook {
     protected Date publishingDate;
     protected String author;
     protected String title;
@@ -36,5 +36,10 @@ abstract public class Book extends Product implements IBook {
     @Override
     public String getPublisher() {
         return publisher;
+    }
+
+    @Override
+    public double getSellingPrice() {
+        return this.price*1.5;
     }
 }
