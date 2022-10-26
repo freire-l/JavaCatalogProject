@@ -14,4 +14,12 @@ public class IPhone extends Electronics{
     public double getSellingPrice() {
         return this.price*1.5;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "IPhone{" +
+                "model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }

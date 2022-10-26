@@ -12,4 +12,11 @@ public class TvLcd extends Electronics{
     public double getSellingPrice() {
         return this.price*1.5;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "TvLcd{" +
+                "inches=" + inches +
+                '}';
+    }
 }

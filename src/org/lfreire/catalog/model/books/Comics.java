@@ -14,4 +14,11 @@ public class Comics extends Book{
     public double getSellingPrice() {
         return super.getSellingPrice();
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "Comics{" +
+                "character='" + character + '\'' +
+                '}';
+    }
 }

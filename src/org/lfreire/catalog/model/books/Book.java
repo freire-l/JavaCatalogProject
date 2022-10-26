@@ -42,4 +42,13 @@ public class Book extends Product implements IBook {
     public double getSellingPrice() {
         return this.price*1.5;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "Book{" +
+                "publishingDate=" + publishingDate +
+                ", author='" + author + '\'' +
+                ", title='" + title + '\'' +
+                ", publisher='" + publisher + '\'';
+    }
 }

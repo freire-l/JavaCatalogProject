@@ -11,4 +11,9 @@ abstract public class Product implements IProduct{
     public int getPrice() {
         return price;
     }
+
+    public String toString() {
+        return "Product{" +
+                "price=" + price;
+    }
 }

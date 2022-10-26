@@ -14,4 +14,10 @@ abstract public class Electronics extends Product implements IElectronics{
     public String getManufacturer() {
         return manufacturer;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "Electronics{" +
+                "manufacturer='" + manufacturer + '\'';
+    }
 }
