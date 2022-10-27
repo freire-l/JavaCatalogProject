@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1216cd3d-f042-4cac-8963-797b6a9345a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/lfreire/catalog/model/CatalogProject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatalogProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CatalogProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/lfreire/catalog/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lfreire/catalog/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/lfreire/catalog/model/books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lfreire/catalog/model/books/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/lfreire/catalog/model/books/Comics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lfreire/catalog/model/books/Comics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/lfreire/catalog/model/electronics/Electronics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lfreire/catalog/model/electronics/Electronics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/lfreire/catalog/model/electronics/IPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lfreire/catalog/model/electronics/IPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/lfreire/catalog/model/electronics/TvLcd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lfreire/catalog/model/electronics/TvLcd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lfreire/catalog/model/CatalogProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lfreire/catalog/model/CatalogProject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +31,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="CatalogProject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lfreire.catalog.model.CatalogProject" />
+      <module name="CatalogProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lfreire.catalog.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CatalogProject" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
